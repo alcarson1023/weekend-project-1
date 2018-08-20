@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  background-color: slategray;
+  height: 1200px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 15px 10px white;
+  background-color: white;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.generatedIpsum{
+  font-size: 1px;
+  background-color: blue;
+}
+.history{
+  margin-top: 70px;
+}
+.historyList{
+margin-top: 30px;
+font-size: 24px;
+}
+
+.input{
+  width: 250px;
+  border-radius: 5px;
+  font-size: 12px;
+  border: 5px solid rgb(77, 74, 74); 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+
+.getButton{
+  color:white;
+  background-color: lightcoral;
+  font-size: 24px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 2px rgb(48, 48, 48); 
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+.getButton:active{
+  background-color: rgb(219, 102, 102);
+  box-shadow: 5px 5px 5px -2px black; 
+}
+
+.deleteButton{
+  margin-top: 10px;
+  background-color: lightskyblue;
+  box-shadow: 5px 5px 5px 2px black; 
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+.deleteButton:active{
+  box-shadow: 5px 5px 5px -2px black; 
+  background-color: rgb(60, 175, 247);
+}
+
+.submitButton{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  background-color: lightseagreen;
+  box-shadow: 5px 5px 5px 2px black; 
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+.submitButton:active{
+  box-shadow: 5px 5px 5px -2px black; 
+  background-color: rgb(19, 156, 149);
+}
