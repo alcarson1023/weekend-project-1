@@ -1,9 +1,19 @@
 import React from 'react';
+import {Component} from 'react'
+import App from '../App.js'
 
-const DeleteButton = props => {
-  return(
-      <button class='deleteButton' onClick={() => props.deleteIpsum(props.index)}>Delete</button>
+class DeleteButton extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      isStatefulComponent: true
+    }
+  }
+  render(){
+    return(
+      <button class='deleteButton' onClick={() => this.props.deleteIpsum(this.props.index)}>Delete</button>
   )
+}
 }
 
 export default DeleteButton;
